@@ -25,12 +25,6 @@ change.
 - `gem install bundler:1.17.3`
 - `bundle _1.17.3_`
 
-## Todo
-
-- Migrate remaining [modeset.js](https://github.com/modeset/modeset.js) files
-- Mobilize (templates, styles, cs, etc..)
-- See Todo items within each utensil
-
 ## License
 
 Licensed under the [MIT License](http://creativecommons.org/licenses/MIT/)
