@@ -22,6 +22,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'teaspoon', '>= 0.7.4'
 
   # Used by the dummy application
-  s.add_development_dependency 'docomo'
   s.add_development_dependency 'rails', '>= 3.2.5'
 end

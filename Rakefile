@@ -18,14 +18,4 @@ Bundler::GemHelper.install_tasks
 desc "Run the javascript specs"
 task :teaspoon => "app:teaspoon"
 
-# Docomo
-# -----------------------------------------------------------------------------
-namespace :utensils do
-  desc "Generate documentation for asset libraries"
-  task :document => :environment do
-    Docomo.configuration.use_pygments = true
-    Docomo::Processor.new.render_to_file
-  end
-end
-
 task :default => [:teaspoon]
